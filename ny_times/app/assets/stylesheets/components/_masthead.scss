@@ -44,6 +44,7 @@
 
 .masthead-links li {
 	margin-left: 10px;
+	border-right: 1px solid $light-gray;
 }
 
 .masthead-links button {
@@ -70,4 +71,12 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.language-nav li:first-of-type a {
+	font-weight: bold;
+}
+
+.masthead-links li:last-child {
+	border: none;
 }
